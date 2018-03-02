@@ -1,0 +1,78 @@
+h1, h2 {
+	text-align: center;
+}
+
+h2 {
+	margin-bottom: 2.5%;
+}
+
+h3 {
+	margin: 0;
+}
+
+/*///// MY CLASSES /////*/
+.top-content {
+	margin-top: 5%;
+	padding: 0;
+}
+
+.project {
+	background: pink;
+	min-height: 300px;
+	margin-bottom: 1%;
+	padding: 1%;
+}
+
+.project-content {
+	background: purple;
+	height: 300px;
+	width: auto;
+	margin:1% 0.5% 0.5% 0;
+}
+
+.main-project {
+	height: 500px;
+}
+
+.border-box {
+	box-sizing: border-box;
+}
+
+
+/*///// EDITED BOOTSTRAP CLASSES /////*/
+
+/*changes navbar background color*/
+.navbar {
+	background: #ee2524;
+}
+
+/*makes navbar brand image size responsive*/
+.navbar-brand img {
+  height: 100%;
+  width: auto;
+}
+
+/*makes brand image larger*/
+a.navbar-brand {
+	padding: 7px;
+}
+
+.navbar-default .navbar-toggle {
+	border-color: #b31c1b;
+}
+
+/*changes active navbar links color*/
+.navbar-default .navbar-nav>.active>a {
+	color: white;
+	background: #b31c1b;
+}
+
+/*changes inactive navbar links color*/
+.navbar-default .navbar-nav>li>a {
+	color: #ffeac1;
+}
+
+/*changes mobile hamburger menu bars color*/
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: #871514;
+}
