@@ -1,78 +1,104 @@
-h1, h2 {
-	text-align: center;
-}
-
-h2 {
-	margin-bottom: 2.5%;
-}
-
-h3 {
+* {
 	margin: 0;
-}
-
-/*///// MY CLASSES /////*/
-.top-content {
-	margin-top: 5%;
 	padding: 0;
 }
 
+html, body {
+	height: 100%
+}
+
+body {
+	font-family: Montserrat, sans-serif;
+}
+
+h1 {
+	color: #ee2524;
+	line-height: 80px;
+	font-size: 80px;
+	font-family: "Francois One", sans-serif;
+	letter-spacing: 1px;
+	margin-left: 10px;
+}
+
+h2 {
+	margin: 5px 0;
+	color: #ee2524;
+}
+
+hr {
+	background-color: #ee2524;
+    border: 0;
+    height: 2px;
+    /*background: linear-gradient(to right, rgba(238, 37, 36, 0.75), rgba(238, 37, 36, 0));*/
+    width: 90%;
+    margin-left: 2.5%;
+}
+
+.page-wrap {
+	min-height: 100%;
+	position: relative;
+}
+
+.top-content {
+	display: flex;
+	padding: 2.5% 0 1.25% 2.5%;
+}
+
+.all-projects {
+	margin: 50px auto 0 auto;
+	width: 80%;
+}
+
+.other-projects {
+	display: flex;
+	margin-top: 20px;
+}
+
 .project {
-	background: pink;
-	min-height: 300px;
-	margin-bottom: 1%;
-	padding: 1%;
+	flex-grow: 1; 
+	width: 49%;
+}
+
+.spacer {
+	flex-grow: 1;
 }
 
 .project-content {
-	background: purple;
+	background: #850606;
 	height: 300px;
 	width: auto;
-	margin:1% 0.5% 0.5% 0;
-}
-
-.main-project {
-	height: 500px;
 }
 
 .border-box {
 	box-sizing: border-box;
 }
 
-
-/*///// EDITED BOOTSTRAP CLASSES /////*/
-
-/*changes navbar background color*/
-.navbar {
-	background: #ee2524;
-}
-
-/*makes navbar brand image size responsive*/
-.navbar-brand img {
-  height: 100%;
-  width: auto;
-}
-
-/*makes brand image larger*/
-a.navbar-brand {
-	padding: 7px;
-}
-
-.navbar-default .navbar-toggle {
-	border-color: #b31c1b;
-}
-
-/*changes active navbar links color*/
-.navbar-default .navbar-nav>.active>a {
+.footer {
 	color: white;
-	background: #b31c1b;
+	background-color: #b31c1b;
+	height: 110px;
+	text-align: center;
+	line-height: 25px;
+	padding-top: 25px;
+	position:absolute;
+    bottom:0;
+    width:100%;
 }
 
-/*changes inactive navbar links color*/
-.navbar-default .navbar-nav>li>a {
-	color: #ffeac1;
+.footer i {
+	padding: 0 10px 25px 10px;
 }
 
-/*changes mobile hamburger menu bars color*/
-.navbar-default .navbar-toggle .icon-bar {
-	background-color: #871514;
+.footer p {
+	font-size: 1.25em;
+}
+
+.footer-info {
+	background-color: #850606;
+	padding: 14px 0;
+	font-size: 0.75em;
+}
+
+#brand-image {
+	max-height: 80px;
 }
